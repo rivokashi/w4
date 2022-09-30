@@ -32,8 +32,8 @@ function result() {
   }
 
   if (document.getElementById("us").checked) {
-    const temperature =  `華氏${Math.round(30*1.8+32)}`;
-    const weight = `${Math.round(50* 2.2046)} pond`;
+    const temperature =  `華氏${Math.round(30*1.8+32)}度`;
+    const weight = `${Math.round(50* 2.2046)}pond`;
     newStory = newStory.replace('摂氏30度', temperature);
     newStory = newStory.replace('50kg', weight);
   }
