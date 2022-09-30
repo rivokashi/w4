@@ -32,12 +32,12 @@ function result() {
 
   if (customName.value !== '') {
     const name = customName.value;
-    newStory = newStory.replace('Bob', name);
+    newStory = newStory.replace('K', name);
   }
 
-  if (document.getElementById("uk").checked) {
-    const weight = `${Math.round(300*0.0714286)} stone`;
-    const temperature =  `${Math.round((94-32) * 5 / 9)} centigrade`;
+  if (document.getElementById("US").checked) {
+    const temperature =  `${Math.round(30*1.8+32)} centigrade`;
+    const weight = `${Math.round(30*2.2046)} stone`;
     newStory = newStory.replace('摂氏30度', temperature);
     newStory = newStory.replace('体重50kg', weight);
   }
