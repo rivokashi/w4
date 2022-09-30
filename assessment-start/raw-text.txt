@@ -11,15 +11,15 @@ function randomValueFromArray(array){
 
 2. RAW TEXT STRINGS
 
-It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.
+気温　摂氏30度で外は暑かった。　:insertx: は出かけた。:inserty: の家に着いた。　:insertz: が倒れてきた。 体重50kgのドラえもんは驚かなかったが、Kは驚いた。しずかちゃんの家でははじめてことだった。
 
-Willy the Goblin
-Big Daddy
-Father Christmas
+ドラえもん
+アンパンマン
+アムロ
 
-the soup kitchen
-Disneyland
-the White House
+電柱
+煙突
+鉄塔
 
 spontaneously combusted
 melted into a puddle on the sidewalk
@@ -36,9 +36,9 @@ function result() {
 
   }
 
-  if(document.getElementById("uk").checked) {
-    const weight = Math.round(300);
-    const temperature =  Math.round(94);
+  if(document.getElementById("日本").checked) {
+    const weight = Math.round(50);
+    const temperature =  Math.round(30);
 
   }
 
