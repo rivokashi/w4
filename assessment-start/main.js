@@ -31,7 +31,7 @@ function result() {
     newStory = newStory.replace('K', name);
   }
 
-  if (document.getElementById("uk").checked) {
+  if (document.getElementById("us").checked) {
     const temperature =  `華氏${Math.round(30*1.8+32)}`;
     const weight = `${Math.round(50* 2.2046)} pond`;
     newStory = newStory.replace('摂氏30度', temperature);
